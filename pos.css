@@ -30,7 +30,11 @@ section {
 	min-width: 10px;
 	padding: 1rem 0;
 	min-height: 300px;
-	display: block;
+	display: flex; /*bringt die div boxen nebeneinander*/
+	justify-content: space-between;/* justify content regelt Platz auf der X Achse*/
+	align-items: stretch;/* align content regelt Platz auf der Y Achse rum*/
+	background-color: burlywood;
+	
 }
 
 
@@ -38,6 +42,7 @@ section {
 	min-width: 20px;
 	min-height: 70px;
 	margin: 10px;
+	flex-grow: 1;
 }
 
 .trolley-grey {
